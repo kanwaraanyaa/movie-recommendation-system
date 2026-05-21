@@ -1,1 +1,8 @@
-bcrypt==5.0.0
+streamlit
+pandas
+numpy
+requests
+scikit-learn
+streamlit-authenticator
+PyYAML
+bcrypt
