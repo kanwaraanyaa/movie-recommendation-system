@@ -1,6 +1,7 @@
 import streamlit as st
 import pickle
 import requests
+import os
 
 from auth import add_user, login_user
 
