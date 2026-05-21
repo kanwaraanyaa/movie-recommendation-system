@@ -1,0 +1,14 @@
+credentials:
+  usernames:
+    aanya:
+      email: aanya@gmail.com
+      name: Aanya
+      password: '$2b$12$RV4uNoBAGasw2Lyev1l2heFpfNNA.2IEhW8MpNMuWsOpnF6oU08LG'
+cookie:
+  expiry_days: 30
+  key: random_signature_key
+  name: netflix_cookie
+
+preauthorized:
+  emails:
+    - aanya@gmail.com
