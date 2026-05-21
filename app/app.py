@@ -6,8 +6,10 @@ from auth import add_user, login_user
 
 # ================= LOAD DATA =================
 
-movies = pickle.load(open('movies.pkl', 'rb'))
-similarity = pickle.load(open('similarity.pkl', 'rb'))
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+movies = pickle.load(open(os.path.join(BASE_DIR, "movies.pkl"), "rb"))
+similarity = pickle.load(open(os.path.join(BASE_DIR, "similarity.pkl"), "rb"))
 
 # ================= PAGE CONFIG =================
 
