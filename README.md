@@ -21,7 +21,7 @@ Movie posters are fetched dynamically using the TMDB API.
 - TMDB API
 - Pickle
 
-## ML Concepts Used
+### ML Concepts Used
 
 - NLP preprocessing
 - Count Vectorization
